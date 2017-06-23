@@ -9,6 +9,11 @@ $rosso-color: #FF0A0A !default;
 $ctaButton-header-color: $evidence-color !default;
 $ctaButton-radius: 30px !default;
 
+h2.evidence {
+    border-bottom: solid;
+    border-width: 1px;
+}
+
 div.spazio_bianco {
   height: 4.5rem;
 }
@@ -89,7 +94,7 @@ h1{
     margin-bottom: 10px;
 
     .title {
-        background-color: rgba(255,255,255,0.4);
+        background-color: rgba(255,255,255,0.9);
         text-align: center;
         padding-left: 3%;
         padding-right: 3%;
@@ -102,7 +107,7 @@ h1{
         }
 
         .medium {
-            font-size: 3vw;
+            font-size: rem-calc(40, null);;
             text-transform: none;
             font-weight: 100;
             font-style: normal;
@@ -125,14 +130,14 @@ h1{
     padding-right: rem-calc(10, null);
 
     .sconto {
-        font-size: rem-calc(60, null);
+        font-size: rem-calc(50, null);
         font-weight: 400;
         color: #000000;
         line-height: 5rem;
     }
 
     .subSconto {
-        font-size: rem-calc(40, null);
+        font-size: rem-calc(30, null);
         font-weight: 300;
         line-height: 5rem;
         color: #000000;
