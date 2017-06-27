@@ -47,7 +47,7 @@ GEM
     i18n (0.7.0)
     imgix (1.1.0)
       addressable
-    kramdown (1.13.2)
+    kramdown (1.14.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -149,4 +149,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.14.6
+   1.15.1
