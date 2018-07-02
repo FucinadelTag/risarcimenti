@@ -20,10 +20,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.0/js.cookie.min.js"></script>
 
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
     <% if current_page.data.headCode  %>
         <%= current_page.data.headCode %>
     <% end %>
+
+
+    <script type="text/javascript">
+
+        netlifyIdentity.on("init", user => {
+            if (user) {
+                //window.location = "https://www.risarcimentionline.it/index1/";
+            } else {
+                window.location = "https://www.risarcimentionline.it/";
+            }
+        });
+        // const user = netlifyIdentity.currentUser();
+        // console.log(user);
+    </script>
 
   </head>
 
