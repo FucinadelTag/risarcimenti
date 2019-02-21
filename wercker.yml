@@ -1,7 +1,7 @@
 box: ruby:2.3.1
 build:
     steps:
-        - npm-install
+        - bigtruedata/install-node
         - script:
             name: config build.nokogiri
             code: bundle config build.nokogiri --use-system-libraries
